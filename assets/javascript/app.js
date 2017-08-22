@@ -37,8 +37,9 @@ $(document).on("click", ".band", function() {
 		 	bandImage.on("click", playsGif);
 
 		 		  var rating = results[j].rating;
-		 		  var showRating = $("<p>").text("Rating: " + rating);
-			$("#gifsArea").prepend(showRating);
+		 		  var p = $("<p>").text("Rating: " + rating);
+			$("#gifsArea").prepend(p);
+			$("#gifsArea").prepend(bandImage);
 
 		  }
 
