@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+.band {
+	padding: 5px;
+	margin: 8px;
+	color: white;
+	background-color: #7496c2;
+	border-radius: 10px;
+}
+
+#addBands-form {
+	margin: 15px;
+}
+
+#gifsArea {
+	margin-left: 10px;
+}
 
 
 footer {
